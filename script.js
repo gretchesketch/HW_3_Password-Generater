@@ -1,17 +1,22 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+
+//password library
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var special = ["!", "@", "#", "$", "^", "&", "*", "-", "=", "?", ".", "_"];
 var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "p", "Q", "R", "S", "T", "U", "V", "W", "x", "Y", "Z"];
 var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
+//Declare generatepassword
 function generatePassword() {
-  var passwordLength = prompt("What do you want your password length to be? choose between 8 and 128");
+  var passwordLength = prompt("What do you want your password length to be? choose between 8 and 128 characters");
  if (passwordLength >= 8 && passwordLength <= 128) {
    var askNumbers = window.confirm("Do you want your password to contain numbers?", "yes, or no.")
  
     if (askNumbers ) {
-      alert("Numbers will be included in your password.")
+      alert("Numbers will be included in your password.") {
+
+        }
     } else {alert("Numbers will not be included in your password.")}
 
     if (askSpecial ) {
