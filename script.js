@@ -43,13 +43,13 @@ function promptUser() {
       alert("Special Characters will be included in your password.")
     } else {alert("Special characters will NOT be included in your password.")}
 
-    uppChar = window.confirm("Do you want your password to contain upper case letters? yes, or no.")
-    if (uppChar ) {
+    upperCase = window.confirm("Do you want your password to contain upper case letters? yes, or no.")
+    if (upperCase ) {
       alert("Upper case letters will be included in your password.")
     } else {alert("Upper case letters will NOT be included in your password.")}
 
-    lowerChar = window.confirm("Do you want your password to contain lower case letters? yes, or no.")
-    if (lowerChar ) {
+    lowerCase = window.confirm("Do you want your password to contain lower case letters? yes, or no.")
+    if (lowerCase ) {
       alert("Lower case letters will be included in your password.")
     } else {alert("Lower case letters will NOT be included in your password.")}
 
